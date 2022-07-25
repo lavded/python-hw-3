@@ -1,10 +1,10 @@
 def double_zero(array):
-    array_new = []
+    res_arr = []
     for num in array:
-        array_new.append(num)
+        res_arr.append(num)
         if num == 0 in array:
-            array_new.append(num)
-    return array_new
+            res_arr.append(num)
+    return res_arr
 
 
 print(double_zero([1,0,2,3,0,4,5,0])) 
